@@ -1,1 +1,62 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
+.navbar img
+{
+    height: 2.4rem;
+    position: relative;
+    top: 0.3rem;
+}
+
+nav {
+    background-color: white !important;
+}
+
+.Intro-panel
+{
+    padding: 2.4rem;
+    background: transparent linear-gradient(180deg, #3FFFC773 0%, #B9EEECBD 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Intro-panel > .img-content > .rel-img > img:nth-child(1)
+{
+    height: 21rem;
+    z-index: -3;
+}
+.Intro-panel > .img-content > .rel-img > img:nth-child(2)
+{
+    position: absolute;
+    top: 3rem;
+    left: -5rem;
+    height: 19rem;
+    z-index: 3;
+}
+.intro-content >.btn
+{
+    width: 8rem !important;
+    border-radius: 1.5rem !important;
+    background: #AE4FE4D1 !important;
+}
+
+
+/*media queries */
+/*small mobile */
+@media (max-width: 320px) {
+    body 
+    {
+        width: 122% !important;
+    }
+    .Intro-panel > .img-content > .rel-img > img:nth-child(1)
+    {
+        height: 16rem;
+    }
+    .Intro-panel > .img-content > .rel-img > img:nth-child(2)
+    {
+        height: 15rem;
+        left: -2rem;
+    }
+}
+/*medium mobile */
+@media (max-width: 375px) { 
+    body 
+    {
+        width: 110%;
+    }
+}
