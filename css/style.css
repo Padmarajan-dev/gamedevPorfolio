@@ -1,3 +1,6 @@
+@import url('./about-me.css');
+@import url('./skills.css');
+@import url('../assets/plugins/progress-bar/progresscircle.css');
 .navbar img
 {
     height: 2.4rem;
@@ -33,30 +36,70 @@ nav {
     width: 8rem !important;
     border-radius: 1.5rem !important;
     background: #AE4FE4D1 !important;
+    box-shadow: 2px 2px 4px #7b746e94;
 }
-
-
+.social-icon
+{
+    height: 2.5rem;
+}
+.intro-content > h5 
+{
+    font-weight: 400;
+}
+.intro-content > h5 > span:nth-child(1)
+{
+    font-size: 1.5rem;
+    color: #1212bb;
+    font-weight: 700; 
+}
+.intro-content > h5 > span:nth-child(2)
+{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #efaf5e;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.panel-title > .left-border
+{
+    border: 0.25rem solid #C5EF1F;
+    height: 0.4rem;
+    background: #C5EF1F;
+    width: 12rem;
+    border-radius: 15px 0px 0px 15px;
+} 
+.panel-title > .right-border
+{
+    border: 0.25rem solid #C5EF1F;
+    height: 0.4rem;
+    background: #C5EF1F;
+    width: 12rem;
+    border-radius: 0px 15px 15px 0px;
+}
 /*media queries */
 /*small mobile */
 @media (max-width: 320px) {
     body 
     {
-        width: 122% !important;
+        width: 100% !important;
     }
     .Intro-panel > .img-content > .rel-img > img:nth-child(1)
     {
-        height: 16rem;
+        height: 14rem;
     }
     .Intro-panel > .img-content > .rel-img > img:nth-child(2)
     {
-        height: 15rem;
-        left: -2rem;
+        height: 12rem;
+        left: -1rem;
     }
 }
 /*medium mobile */
 @media (max-width: 375px) { 
     body 
     {
-        width: 110%;
+        width: 100%;
     }
 }

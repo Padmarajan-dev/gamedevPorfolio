@@ -1,0 +1,35 @@
+.skills-panel > .img-content > .rel-img > img:nth-child(1)
+{
+    height: 13rem;
+    z-index: -3;
+}
+.skills-panel > .img-content > .rel-img > img:nth-child(2)
+{
+    position: absolute;
+    top: 0rem;
+    left: 4rem;
+    height: 13rem;
+    z-index: 3;
+}
+.skills-btn > .btn
+{
+    width: 12rem !important;
+    border-radius: 1.5rem !important;
+    background: #AE4FE4D1 !important;
+}
+
+/*progress svg styles*/
+.svg-img
+{
+    position: relative;
+    top: -6.8rem;
+    left: 1.8rem;
+    height: 4.8rem;
+}
+
+.circlechart
+{
+    margin-left: 3.4rem !important;
+}
+
+/*progress svg styles*/
