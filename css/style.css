@@ -122,10 +122,61 @@ nav {
     font-size: 0.9rem;
     color: #a8a79e !important;
 }
+/* wave design */
+.wave
+{
+    margin-left: -2rem;
+}
+.wave > img:nth-child(2)
+{
+    top: -9rem;
+    position: relative;
+}
+#portfolio-divider
+{
+    position: relative;
+    top: 3rem;
+}
+
+#portfolio-divider-1
+{
+    position: relative;
+    top: -3rem;
+    z-index: -3;
+}
 /*medium mobile */
 @media (max-width: 375px) { 
     body 
     {
         width: 100%;
+    }
+    .wave > img
+    {
+        height: 2.5rem; 
+    }
+    .wave > img:nth-child(2) {
+        top: -4rem;
+        position: relative;
+        height: 2.5rem;
+    }
+    #portfolio-divider
+    {
+        top: 1rem;
+    }
+    #portfolio-divider > img 
+    {
+    height: 2.5rem;
+    width: 22rem;
+    }
+
+    #portfolio-divider-1
+    {
+        top: -2rem;
+    }
+
+    #portfolio-divider-1 > img 
+    {
+        height: 6.5rem;
+        width: 30rem;
     }
 }

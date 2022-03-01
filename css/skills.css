@@ -42,14 +42,15 @@
 /* portfolio */
 .portfolio-cards > .card 
 {
-    background: radial-gradient(circle, rgb(152 157 183) 0%, rgb(154 235 111) 100%);
+    background: #51caf3;
+    box-shadow: 4px 5px 5px #cbced1, -4px -5px 5px #ffffff;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
 .portfolio-cards > .card > .card-img-top
 {
     height: 16rem;
-    width: 20.8rem;
+    width: 20.5rem;
     margin-left: -1rem;
     /* border-bottom: 6px solid #28231c; */
     border-bottom-left-radius: 2rem;
@@ -78,15 +79,16 @@
 
 .experience-cards > .card 
 {
-    box-shadow: -10px -10px 15px rgb(255 255 255 / 50%), 10px 10px 15px rgb(70 70 70 / 12%);
-    background: #a7ff50;
+    box-shadow: -10px -10px 15px rgb(255 255 255 / 50%), 6px 5px 15px rgb(70 70 70 / 12%);
+    background: #a0d1fb;
+    border: none;
 }
 
 .experience-cards > .card > img 
 {
    height: 5rem;
    width: 5rem;
-   box-shadow: -3px -4px 15px rgb(255 255 255 / 50%), 3px 2px 5px rgb(255 255 255);
+   box-shadow: -3px -4px 15px rgb(255 255 255 / 50%), 3px 2px 5px rgb(204 234 232);;
    border-radius: 3rem;
 }
 
