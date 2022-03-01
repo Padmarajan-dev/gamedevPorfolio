@@ -1,0 +1,13 @@
+.about-me-panel > .img-content > .rel-img > img:nth-child(1)
+{
+    height: 19rem;
+    z-index: -3;
+}
+.about-me-panel > .img-content > .rel-img > img:nth-child(2)
+{
+    position: absolute;
+    top: 3rem;
+    left: 8rem;
+    height: 16rem;
+    z-index: 3;
+}

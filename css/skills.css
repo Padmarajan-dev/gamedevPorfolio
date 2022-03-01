@@ -1,0 +1,112 @@
+.skills-panel > .img-content > .rel-img > img:nth-child(1)
+{
+    height: 13rem;
+    z-index: -3;
+}
+.skills-panel > .img-content > .rel-img > img:nth-child(2)
+{
+    position: absolute;
+    top: 0rem;
+    left: 4rem;
+    height: 13rem;
+    z-index: 3;
+}
+.skills-btn > .btn
+{
+    width: 12rem !important;
+    border-radius: 1.5rem !important;
+    background: #AE4FE4D1 !important;
+}
+
+/*progress svg styles*/
+.svg-img
+{
+    position: relative;
+    top: -6.8rem;
+    left: 1.8rem;
+    height: 4.8rem;
+}
+
+.circlechart
+{
+    margin-left: 3.4rem !important;
+    
+}
+.circlechart > svg 
+{
+    box-shadow: 4px 5px 5px #c3cdd7, -4px -5px 5px #c7aeae;
+}
+
+/*progress svg styles*/
+
+/* portfolio */
+.portfolio-cards > .card 
+{
+    background: radial-gradient(circle, rgb(152 157 183) 0%, rgb(154 235 111) 100%);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.portfolio-cards > .card > .card-img-top
+{
+    height: 16rem;
+    width: 20.8rem;
+    margin-left: -1rem;
+    /* border-bottom: 6px solid #28231c; */
+    border-bottom-left-radius: 2rem;
+}
+
+.portfolio-cards > .card > .card-body > .card-btns > .btn
+{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    background: #3c7de1;
+    box-shadow: 0px 4px 4px #9b7070;
+    border: none;
+}
+.portfolio-cards > .card > .card-body > .card-title
+{
+    font-size: 23px;
+    font-weight: 700;
+}
+.btn-logo > img
+{
+    height: 2rem;
+    margin-left: -0.3rem;
+    margin-top: 0.1rem;
+}
+
+.experience-cards > .card 
+{
+    box-shadow: -10px -10px 15px rgb(255 255 255 / 50%), 10px 10px 15px rgb(70 70 70 / 12%);
+    background: #a7ff50;
+}
+
+.experience-cards > .card > img 
+{
+   height: 5rem;
+   width: 5rem;
+   box-shadow: -3px -4px 15px rgb(255 255 255 / 50%), 3px 2px 5px rgb(255 255 255);
+   border-radius: 3rem;
+}
+
+.Experience > .img-content > .rel-img > img:nth-child(1)
+{
+    height: 19rem;
+}
+.Experience > .img-content > .rel-img > img:nth-child(2)
+{
+    height: 14rem;
+    position: relative;
+    left: -22rem;
+}
+/* media queries */
+@media (min-width: 1200px) { 
+    .portfolio-cards > .card > .card-img-top
+    {
+        height: 16rem;
+        width: 22.8rem;
+       
+    }
+}
+

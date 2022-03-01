@@ -1,0 +1,48 @@
+.Contact 
+{
+    background: whitesmoke;
+    border-top-left-radius: 6rem;
+}
+.custom-form-control
+{
+    border-radius: 1rem;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -6px -6px 6px #ffffff;
+}
+
+.custom-form-control > .form-control 
+{
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
+
+.contact-form 
+{
+    background: #ebf0f5;
+    box-shadow: 8px 8px 8px #cbced1,  -6px -6px 6px #ffffff;
+}
+.custom-form-control >  .fa
+{
+    font-size: 1.4rem !important;
+    color: #94917e !important;
+}
+
+.mail-img
+{
+    height: 12rem;
+    width: 12rem;
+}
+
+#mail-me 
+{
+    border-radius: 2rem;
+    background: #b3d19a;
+    border: none;
+    box-shadow: 8px 8px 8px #cbced1, -6px -6px 6px #ffffff;
+}
+
+#mail-me:active 
+{
+    background: #c88cf8 !important;
+}
