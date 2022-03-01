@@ -1,6 +1,7 @@
 @import url('./about-me.css');
 @import url('./skills.css');
 @import url('../assets/plugins/progress-bar/progresscircle.css');
+@import url('./contact.css');
 
 html,body
 {
@@ -100,6 +101,26 @@ nav {
         height: 12rem;
         left: -1rem;
     }
+}
+.menu-btns
+{
+    box-shadow: 4px 5px 5px #cbced1, -4px -5px 5px #ffffff;
+    background: #b791f3 !important;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.portfolio
+{
+    background: #fdf4f4;
+}
+
+/*place holder */
+::placeholder
+{
+    font-size: 0.9rem;
+    color: #a8a79e !important;
 }
 /*medium mobile */
 @media (max-width: 375px) { 
