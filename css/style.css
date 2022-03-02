@@ -58,7 +58,7 @@ nav {
     color: #1212bb;
     font-weight: 700; 
 }
-.intro-content > h5 > span:nth-child(2)
+.intro-content > h5:nth-child(2)
 {
     font-weight: 600;
     font-size: 1.5rem;
@@ -85,23 +85,7 @@ nav {
     width: 12rem;
     border-radius: 0px 15px 15px 0px;
 }
-/*media queries */
-/*small mobile */
-@media (max-width: 320px) {
-    body 
-    {
-        width: 100% !important;
-    }
-    .Intro-panel > .img-content > .rel-img > img:nth-child(1)
-    {
-        height: 14rem;
-    }
-    .Intro-panel > .img-content > .rel-img > img:nth-child(2)
-    {
-        height: 12rem;
-        left: -1rem;
-    }
-}
+
 .menu-btns
 {
     box-shadow: 4px 5px 5px #cbced1, -4px -5px 5px #ffffff;
@@ -144,15 +128,33 @@ nav {
     top: -3rem;
     z-index: -3;
 }
-/*medium mobile */
-@media (max-width: 375px) { 
-    body 
+
+.btn-icon 
+{
+    height: 2rem;
+}
+
+.menu-btns-1
+{
+    box-shadow: -1px 2px 3px #cbced1, 2px -13px 3px #ffffff !important;
+}
+/*media queries */
+/*small mobile */
+@media (max-width: 320px) {
+ 
+    .Intro-panel > .img-content > .rel-img > img:nth-child(1)
     {
-        width: 100%;
+        height: 14rem;
     }
+    .Intro-panel > .img-content > .rel-img > img:nth-child(2)
+    {
+        height: 12rem;
+        left: -1rem;
+    }
+
     .wave > img
     {
-        height: 2.5rem; 
+        height: 3.5rem; 
     }
     .wave > img:nth-child(2) {
         top: -4rem;
@@ -178,5 +180,122 @@ nav {
     {
         height: 6.5rem;
         width: 30rem;
+    }
+    .panel-title > .left-border,.panel-title > .right-border
+    {
+        width: 6rem;
+    }
+
+    .panel-title > h5 
+    {
+        font-size: 0.9rem;
+        margin-top: 0.2rem;
+    }
+
+    .Contact 
+    {
+        border-top-left-radius: 3rem;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(1) {
+        height: 14rem;
+        left: -2rem;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(2) {
+        height: 11rem;
+        left: -1rem;
+        top: -13rem;
+    }
+
+    .portfolio-cards > .card > .card-img-top {
+        height: 15rem;
+        width: 17.4rem;
+    }
+
+    .skillprogress > svg 
+    {
+        height: 6rem;
+       width: 6rem;
+    }
+
+    .skillprogress > img 
+    {
+        top: -4.9rem;
+        left: 1.5rem;
+        height: 3rem;
+    }
+
+    .skillprogress {
+        margin-left: 0.4rem !important;
+    }
+
+    .about-me-panel > .img-content > .rel-img > img:nth-child(2) {
+        left: 3rem;
+    }
+}
+/*medium mobile */
+@media (min-width: 375px) { 
+ 
+    .Intro-panel > .img-content > .rel-img > img:nth-child(1)
+    {
+        height: 16rem;
+    }
+    .Intro-panel > .img-content > .rel-img > img:nth-child(2)
+    {
+        height: 14rem;
+        left: 1rem;
+    }
+    
+    .wave > img
+    {
+        height: 4rem; 
+    }
+
+    .panel-title > .left-border,.panel-title > .right-border
+    {
+        width: 6rem;
+    }
+
+    .panel-title > h5 
+    {
+        font-size: 0.9rem;
+        margin-top: 0.2rem;
+    }
+}
+
+/*large mobile */
+@media (min-width: 425px) { 
+ 
+    .Intro-panel > .img-content > .rel-img > img:nth-child(1)
+    {
+        height: 18rem;
+    }
+    .Intro-panel > .img-content > .rel-img > img:nth-child(2)
+    {
+        height: 16rem;
+        left: 1rem;
+    }
+}
+
+/* medium size laptops */
+@media (min-width: 1024px) { 
+  
+    .wave > img {
+        height: 5rem;
+     }
+
+     .panel-title > .left-border, .panel-title > .right-border {
+        width: 10rem;
+    }
+
+    .panel-title > h5 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1440px) { 
+    .wave > img {
+        height: 8rem;
     }
 }
