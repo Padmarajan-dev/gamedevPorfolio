@@ -27,14 +27,27 @@
     height: 4.8rem;
 }
 
-.circlechart
-{
-    margin-left: 3.4rem !important;
-    
-}
 .circlechart > svg 
 {
     box-shadow: 4px 5px 5px #c3cdd7, -4px -5px 5px #c7aeae;
+}
+
+.view-more,.less
+{
+    border: none;
+    border-radius: 2rem;
+    position: relative;
+    top: -0.9rem;
+    left: 38%;
+    width: 3rem;
+    color: #fff;
+    background-color: #55d546;
+    z-index: 10;
+    box-shadow: 3px 3px 4px #cbced1, 0px 5px 3px #ffffff;
+}
+.less 
+{
+    background-color: #f37249;
 }
 
 /*progress svg styles*/
@@ -42,10 +55,9 @@
 /* portfolio */
 .portfolio-cards > .card 
 {
-    background: #51caf3;
-    box-shadow: 4px 5px 5px #cbced1, -4px -5px 5px #ffffff;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    background: transparent;
+
+    border: none;
 }
 .portfolio-cards > .card > .card-img-top
 {
@@ -53,7 +65,18 @@
     width: 20.5rem;
     margin-left: -1rem;
     /* border-bottom: 6px solid #28231c; */
+    /* border-bottom-left-radius: 2rem; */
+}
+.portfolio-cards > .card > .card-body 
+{
+    background: transparent;
+    box-shadow: 4px 5px 5px #cbced1, -4px 0px 3px #ffffff;
     border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    position: relative;
+    top: -2rem;
+    width: 17.4rem;
+    left: -1rem;
 }
 
 .portfolio-cards > .card > .card-body > .card-btns > .btn
@@ -77,19 +100,31 @@
     margin-top: 0.1rem;
 }
 
-.experience-cards > .card 
+.experience-cards > .row > .card 
 {
-    box-shadow: -10px -10px 15px rgb(255 255 255 / 50%), 6px 5px 15px rgb(70 70 70 / 12%);
-    background: #a0d1fb;
     border: none;
 }
 
-.experience-cards > .card > img 
+.experience-cards > .row > .card > img 
 {
-   height: 5rem;
-   width: 5rem;
-   box-shadow: -3px -4px 15px rgb(255 255 255 / 50%), 3px 2px 5px rgb(204 234 232);;
-   border-radius: 3rem;
+    height: 3rem;
+    width: 3em;
+    position: relative;
+    border-right: 2.8px solid white;
+    top: 4rem;
+    left: -8rem;
+    z-index: 8;
+    border-radius: 2rem;
+}
+.experience-cards > .row > .card > .card-body
+{
+    background: #a0cee5ba;
+    position: relative;
+    z-index: 2;
+    top: -3.2rem;
+    left: 1rem;
+    border-radius: 1rem;
+    box-shadow: -3px -4px 15px rgb(254 230 230 / 50%), 3px 2px 6px rgb(154 131 131);
 }
 
 .Experience > .img-content > .rel-img > img:nth-child(1)
@@ -102,7 +137,248 @@
     position: relative;
     left: -22rem;
 }
+.owl-carousel button.owl-dot.active
+{
+    background: #4adc9bf0;
+}
+.portfolio {
+    border-top-left-radius: 8rem;
+    border-top-right-radius: 7rem;
+}
 /* media queries */
+@media (max-width: 320px) {
+        .experience-cards > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .card > img {
+            height: 4.2rem;
+            width: 4.2em;
+            position: relative;
+            border-bottom: 4px solid white;
+            top: -2rem;
+            left: 1rem;
+            z-index: 10;
+            border-radius: 2rem;
+        }
+            .experience-cards > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .card 
+        {
+            border: none;
+        }
+        .experience-cards > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .card .card-body
+        {
+            background: #a0cee5ba;
+            position: relative;
+            z-index: 2;
+            top: -3.2rem;
+            left: 1rem;
+            border-radius: 1rem;
+            box-shadow: -3px -4px 15px rgb(254 230 230 / 50%), 3px 2px 6px rgb(154 131 131);
+        }
+
+        .owl-nav 
+        {
+            display: none;
+        }
+
+        .owl-dots 
+        {
+            margin-left: 9.4rem;
+            position: relative;
+            top: -4rem;
+        }
+
+        .owl-carousel button.owl-dot {
+            background: #bec4c98a;
+            height: 0.6rem;
+            border-radius: 1rem;
+            width: 1.2rem;
+            margin-left: 0.44rem;
+            font-size: 2rem !important;
+            outline: none;
+        }
+
+      
+}
+/*medium mobile */
+@media (min-width: 375px) { 
+
+  /*progress svg styles*/
+    .svg-img
+    {
+        top: -5.9rem;
+        left: 2.3rem;
+        height: 3.2rem;
+    }
+
+    .skillprogress
+    {
+        margin-left: 0.4rem !important;
+    }
+
+    .skillprogress > .circlechart 
+    {
+        width: 110px !important;
+        height: 110px !important;
+    }
+
+    .view-more,.less
+    {
+        left: 42%;
+    }
+    .portfolio-cards > .card > .card-img-top {
+        margin-left: -1rem;
+    }
+    .portfolio-cards > .card > .card-body {
+        width: 20.4rem;
+    }
+    .Experience > .img-content > .rel-img > img:nth-child(2) {
+        height: 10rem;
+        position: relative;
+        top: -11rem;
+        left: 1rem;
+    }
+    .Experience > .img-content > .rel-img > img:nth-child(1) {
+        height: 17rem;
+    }
+
+    .experience-cards > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .card > img {
+        height: 4.2rem;
+        width: 4.2em;
+        position: relative;
+        border-bottom: 4px solid white;
+        top: -2rem;
+        left: 1rem;
+        z-index: 10;
+        border-radius: 2rem;
+    }
+        .experience-cards > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .card 
+    {
+        border: none;
+    }
+    .experience-cards > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .card .card-body
+    {
+        background: #a0cee5ba;
+        position: relative;
+        z-index: 2;
+        top: -3.2rem;
+        left: 1rem;
+        border-radius: 1rem;
+        box-shadow: -3px -4px 15px rgb(254 230 230 / 50%), 3px 2px 6px rgb(154 131 131);
+    }
+
+    .owl-nav 
+    {
+        display: none;
+    }
+
+    .owl-dots 
+    {
+        margin-left: 10.4rem;
+        position: relative;
+        top: -4rem;
+    }
+
+    .owl-carousel button.owl-dot {
+        background: #bec4c98a;
+        height: 0.6rem;
+        border-radius: 1rem;
+        width: 1.2rem;
+        margin-left: 0.44rem;
+        font-size: 2rem !important;
+        outline: none;
+    }
+}
+
+/*large mobile */
+@media (min-width: 425px) { 
+    .portfolio-cards > .card > .card-img-top {
+         margin-left: 0.7rem;
+    }
+
+    .portfolio-cards > .card > .card-body {
+        left: 0.8rem;
+    }
+
+    .owl-dots {
+        margin-left: 12.4rem;
+    }
+}
+
+/* medium size laptops */
+@media (min-width: 1024px) {
+
+    .portfolio-cards > .card > .card-img-top {
+        margin-left: 0rem !important;
+    }
+
+    .view-more, .less {
+        left: 64%;
+    }
+
+    .portfolio-cards > .card > .card-body {
+        left: 0.01rem;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(1) {
+        height: 20rem;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(2) {
+        height: 13rem;
+        position: relative;
+        top: -1rem;
+        left: -22rem;
+    }
+
+    .experience-cards > .row > .card > img {
+        height: 5rem;
+        width: 5em;
+        position: relative;
+        border-right: 4px solid white;
+        top: 5.7rem;
+        left: -12rem;
+        z-index: 8;
+        border-radius: 3rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 28rem !important;
+    }
+
+}
+@media (min-width: 1440px) { 
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 46rem !important;
+    }
+    .portfolio-cards > .card > .card-body {
+        width: 22.4rem;
+    }
+
+    .view-more, .less {
+        left: 89%;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(2) {
+        height: 14rem;
+        position: relative;
+        top: -1rem;
+        left: -35rem;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(1) {
+        height: 23rem;
+        position: relative;
+        left: -12rem;
+    }
+
+    .experience-cards > .row > .card > img {
+        height: 5rem;
+        width: 5em;
+        position: relative;
+        border-right: 4px solid white;
+        top: 4.7rem;
+        left: -18rem;
+        border-radius: 3rem;
+    }
+}
+/* laptop */
 @media (min-width: 1200px) { 
     .portfolio-cards > .card > .card-img-top
     {

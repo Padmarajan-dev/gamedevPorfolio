@@ -46,3 +46,11 @@
 {
     background: #c88cf8 !important;
 }
+
+/*medium mobile */
+@media (min-width: 375px) { 
+
+    .Contact {
+        border-top-left-radius: 4rem;
+    }
+}
