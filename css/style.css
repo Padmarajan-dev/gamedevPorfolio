@@ -58,6 +58,17 @@ nav {
     color: #1212bb;
     font-weight: 700; 
 }
+.carousel-indicators  .active 
+{
+    background: #d7d742 !important;
+}
+.carousel-indicators > li
+{
+    height: 0.6rem;
+    border: none;
+    border-radius: 0.9rem;
+    background: #bfbfb7 !important;
+}
 .intro-content > h5:nth-child(2)
 {
     font-weight: 600;
@@ -149,10 +160,12 @@ nav {
     .Intro-panel > .img-content > .rel-img > img:nth-child(2)
     {
         height: 11rem !important;
-        left: 1rem;
+        left: 2rem !important;
     }
     
-
+    .view-more, .less {
+    left: 38% !important;
+     }
     .wave > img
     {
         height: 2rem !important; 
@@ -217,11 +230,6 @@ nav {
         width: 16rem !important;
     }
 
-    .view-more,.less
-    {
-        left:45% !important;
-    }
-
     .skillprogress > .svg-img {
     position: relative;
     top: -5rem;
@@ -234,10 +242,22 @@ nav {
         margin-left: 0.4rem !important;
     }
 
+
     .about-me-panel > .img-content > .rel-img > img:nth-child(2) {
-        left: 3rem;
+       left: 4rem;
     }
 
+    .about-me-panel > .img-content > .rel-img > img:nth-child(2) {
+       position: absolute;
+       top: 3rem;
+       left: 8rem;
+       height: 12rem;
+       z-index: 3;
+   }
+   .about-me-panel > .img-content > .rel-img > img:nth-child(1) {
+    height: 14rem;
+    z-index: -3;
+   }
 
 }
 
@@ -247,11 +267,11 @@ nav {
  
     .Intro-panel > .img-content > .rel-img > img:nth-child(1)
     {
-        height: 18rem;
+        height: 15rem;
     }
     .Intro-panel > .img-content > .rel-img > img:nth-child(2)
     {
-        height: 16rem;
+        height: 12rem;
         left: 1rem;
     }
 
@@ -286,6 +306,26 @@ nav {
       {
         font-size: 1rem;
       }
+
+      .img-content {
+    height: 16rem !important;
+    }
+
+    .about-me-panel > .img-content > .rel-img > img:nth-child(2) {
+       left: 5rem;
+    }
+
+  .about-me-panel > .img-content > .rel-img > img:nth-child(2) {
+    position: absolute;
+    top: 3rem;
+    left: 7rem;
+    height: 12rem;
+    z-index: 3;
+   }
+   .about-me-panel > .img-content > .rel-img > img:nth-child(1) {
+    height: 15rem;
+    z-index: -3;
+    }
 }
 
 /* medium size laptops */
@@ -302,10 +342,39 @@ nav {
     .panel-title > h5 {
         font-size: 1.5rem;
     }
+
+    .experience-cards > .row > .card > img {
+    height: 5rem;
+    width: 5em;
+    position: relative;
+    border-right: 4px solid white;
+    top: 6rem;
+    left: -13rem;
+    z-index: 8;
+    border-radius: 3rem;
+   }
+
+   .view-more,.less 
+   {
+    left: 60%;
+   }
+
+       .img-content {
+        height: 19rem !important;
+    }
 }
 
 @media (min-width: 1440px) { 
     .wave > img {
         height: 8rem;
     }
+
+        .img-content {
+        height: 20rem !important;
+    }
+}
+
+.img-content 
+{
+    height: 14rem;
 }
