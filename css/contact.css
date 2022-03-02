@@ -48,7 +48,7 @@
 }
 
 /*medium mobile */
-@media (min-width: 375px) { 
+@media only screen and (max-width: 375px){
 
     .Contact {
         border-top-left-radius: 4rem;

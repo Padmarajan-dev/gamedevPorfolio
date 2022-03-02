@@ -140,21 +140,22 @@ nav {
 }
 /*media queries */
 /*small mobile */
-@media (max-width: 320px) {
+@media only screen and (max-width: 375px){
  
     .Intro-panel > .img-content > .rel-img > img:nth-child(1)
     {
-        height: 14rem;
+        height: 12rem !important;
     }
     .Intro-panel > .img-content > .rel-img > img:nth-child(2)
     {
-        height: 12rem;
-        left: -1rem;
+        height: 11rem !important;
+        left: 1rem;
     }
+    
 
     .wave > img
     {
-        height: 3.5rem; 
+        height: 2rem !important; 
     }
     .wave > img:nth-child(2) {
         top: -4rem;
@@ -183,7 +184,7 @@ nav {
     }
     .panel-title > .left-border,.panel-title > .right-border
     {
-        width: 6rem;
+        width: 5rem !important;
     }
 
     .panel-title > h5 
@@ -210,21 +211,24 @@ nav {
 
     .portfolio-cards > .card > .card-img-top {
         height: 15rem;
-        width: 17.4rem;
+        width: 16rem !important;
+    }
+    .portfolio-cards > .card > .card-body {
+        width: 16rem !important;
     }
 
-    .skillprogress > svg 
+    .view-more,.less
     {
-        height: 6rem;
-       width: 6rem;
+        left:45% !important;
     }
 
-    .skillprogress > img 
-    {
-        top: -4.9rem;
-        left: 1.5rem;
-        height: 3rem;
+    .skillprogress > .svg-img {
+    position: relative;
+    top: -5rem;
+    left: 1.6rem;
+    height: 2.9rem;
     }
+
 
     .skillprogress {
         margin-left: 0.4rem !important;
@@ -233,39 +237,13 @@ nav {
     .about-me-panel > .img-content > .rel-img > img:nth-child(2) {
         left: 3rem;
     }
-}
-/*medium mobile */
-@media (min-width: 375px) { 
- 
-    .Intro-panel > .img-content > .rel-img > img:nth-child(1)
-    {
-        height: 16rem;
-    }
-    .Intro-panel > .img-content > .rel-img > img:nth-child(2)
-    {
-        height: 14rem;
-        left: 1rem;
-    }
-    
-    .wave > img
-    {
-        height: 4rem; 
-    }
 
-    .panel-title > .left-border,.panel-title > .right-border
-    {
-        width: 6rem;
-    }
 
-    .panel-title > h5 
-    {
-        font-size: 0.9rem;
-        margin-top: 0.2rem;
-    }
 }
+
 
 /*large mobile */
-@media (min-width: 425px) { 
+ @media only screen and (max-width: 767px) {
  
     .Intro-panel > .img-content > .rel-img > img:nth-child(1)
     {
@@ -276,13 +254,45 @@ nav {
         height: 16rem;
         left: 1rem;
     }
+
+    .wave > img {
+        height: 4rem;
+    }
+
+    .skillprogress > .svg-img
+    {
+        position: relative;
+        top: -5.4rem;
+        left: 1.6rem;
+        height: 3.5rem;
+    }
+
+    .circle-chart {
+    width: 108px;
+    height: 108px;
+      }
+
+      .panel-title > .right-border {
+         
+         width: 8rem;
+      }
+
+       .panel-title > .left-border {
+         
+         width: 8rem;
+      }
+
+      .panel-title > h5
+      {
+        font-size: 1rem;
+      }
 }
 
 /* medium size laptops */
 @media (min-width: 1024px) { 
   
     .wave > img {
-        height: 5rem;
+        height: 7rem;
      }
 
      .panel-title > .left-border, .panel-title > .right-border {
