@@ -104,14 +104,26 @@
             </div>
              <!--skills showcase-->
              <div class="col-lg-6 order-1  mt-5">
-                  <div class="d-inline-flex justify-content-center row skills-btn">
-                    <button class="btn btn-info menu-btns-1 p-2 ml-2 col-4  mt-3"><img class="btn-icon" src="./assets/Images/game-controller.png"></button>
-                    <button class="btn btn-info menu-btns-1 p-2 ml-2 col-4 ml-lg-3 mr-lg-3 mt-3"><img class="btn-icon" src="./assets/Images/world-wide-web.png"></button>
-                    <button class="btn btn-info menu-btns-1 p-2 ml-2 col-4 mt-3"><img class="btn-icon" src="./assets/Images/wireframe.png"></button>
+                  <div class="d-inline-flex  justify-content-center row skills-btn">
+                    <button class="btn btn-info menu-btns p-2 ml-2 col-4  mt-3 active" id="gamedev"><img class="btn-icon" src="./assets/Images/game-controller.png"></button>
+                    <button class="btn btn-info menu-btns p-2 ml-2 col-4 ml-lg-3 mr-lg-3 mt-3" id="webdev"><img class="btn-icon" src="./assets/Images/world-wide-web.png"></button>
+                    <button class="btn btn-info menu-btns p-2 ml-2 col-4 mt-3" id="wireframe"><img class="btn-icon" src="./assets/Images/wireframe.png"></button>
                   </div>
                   <!--skills-->
-                  <div class="row mt-5 d-inline-flex mr-lg-5 justify-content-around">
+                  <div class="row mt-5 d-inline-flex mr-lg-5 justify-content-around skill-cont" id="gamedev">
                       <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="70" data-url="./assets/Images/Unity.png"></div>
+                      <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="30" data-url="./assets/Images/Unity.png"></div>
+                      <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="20" data-url="./assets/Images/Unity.png"></div>        
+                  </div>
+
+                  <div class="row mt-5  d-none mr-lg-5 justify-content-around skill-cont" id="webdev">
+                      <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="70" data-url="./assets/Images/world-wide-web.png"></div>
+                      <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="30" data-url="./assets/Images/Unity.png"></div>
+                      <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="20" data-url="./assets/Images/Unity.png"></div>        
+                  </div>
+
+                  <div class="row mt-5  d-none mr-lg-5 justify-content-around skill-cont" id="wireframe">
+                      <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="70" data-url="./assets/Images/wireframe.png"></div>
                       <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="30" data-url="./assets/Images/Unity.png"></div>
                       <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="20" data-url="./assets/Images/Unity.png"></div>        
                   </div>
@@ -128,7 +140,7 @@
 
             <div class="col-lg-12 order-1  mt-5 d-inline-flex justify-content-center">
               <div class="d-inline-flex justify-content-center row skills-btn">
-                <button class="btn btn-info col-3 ml-2 mt-3 menu-btns p-2"><img class="btn-icon" src="./assets/Images/unity (1).png"></button>
+                <button class="btn btn-info col-3 ml-2 mt-3 menu-btns p-2 active"><img class="btn-icon" src="./assets/Images/unity (1).png"></button>
                 <button class="btn btn-info col-3 ml-2 mt-3 menu-btns p-2"><img class="btn-icon" src="./assets/Images/model.png"></button>
                 <button class="btn btn-info col-3 ml-2 mt-3 menu-btns p-2"><img class="btn-icon" src="./assets/Images/paving.png"></button>
                 <button class="btn btn-info col-3 ml-2 mt-3 menu-btns p-2"><img class="btn-icon" src="./assets/Images/world-wide-web.png"></button>
