@@ -152,6 +152,10 @@ nav {
 /*media queries */
 /*small mobile */
 @media only screen and (max-width: 375px){
+
+    .btn-icon {
+    height: 1.4rem;
+     }
  
     .Intro-panel > .img-content > .rel-img > img:nth-child(1)
     {
@@ -260,11 +264,21 @@ nav {
    }
 
 }
-
-
+.menu-btns,.menu-btns:focus
+{
+    outline: none !important;
+    box-shadow: 1px 2px 3px #cbced1, 2px 6px 6px #ffffff !important;
+}
+.skills-btn > .btn:not(.active)
+{
+   background: #f1edf3d1 !important;
+   border: none !important; 
+}
 /*large mobile */
  @media only screen and (max-width: 767px) {
- 
+     .btn-icon {
+      height: 1.4rem;
+     }
     .Intro-panel > .img-content > .rel-img > img:nth-child(1)
     {
         height: 15rem;
