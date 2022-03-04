@@ -2,6 +2,7 @@
 @import url('./skills.css');
 @import url('../assets/plugins/progress-bar/progresscircle.css');
 @import url('./contact.css');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap');
 
 html,body
 {
@@ -82,16 +83,16 @@ nav {
 }
 .panel-title > .left-border
 {
-    border: 0.25rem solid #C5EF1F;
-    height: 0.4rem;
+    border: 0.22rem solid #C5EF1F;
+    height: 0.3rem;
     background: #C5EF1F;
     width: 12rem;
     border-radius: 15px 0px 0px 15px;
 } 
 .panel-title > .right-border
 {
-    border: 0.25rem solid #C5EF1F;
-    height: 0.4rem;
+    border: 0.22rem solid #C5EF1F;
+    height: 0.3rem;
     background: #C5EF1F;
     width: 12rem;
     border-radius: 0px 15px 15px 0px;
@@ -201,7 +202,7 @@ nav {
     }
     .panel-title > .left-border,.panel-title > .right-border
     {
-        width: 5rem !important;
+        width: 4rem !important;
     }
 
     .panel-title > h5 
@@ -308,12 +309,12 @@ nav {
 
       .panel-title > .right-border {
          
-         width: 8rem;
+         width: 6rem;
       }
 
        .panel-title > .left-border {
          
-         width: 8rem;
+         width: 6rem;
       }
 
       .panel-title > h5
@@ -391,4 +392,55 @@ nav {
 .img-content 
 {
     height: 14rem;
+}
+
+#angular-icon > img 
+{
+    left: 1rem !important;
+}
+
+.panel-title > h5 
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.intro-content > h5,p
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.intro-content > h4, .intro-content > h5 > span,.card-title
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.intro-content > h4
+{
+    font-weight: 600;
+    color: #e5af6f;
+}
+
+.ctitle >  span 
+{
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: #0bef56;
+    margin-left: 1.3rem;
+}
+
+.carousel-item > .card .card-body > p 
+{
+    color: #e5e5d9;
+}
+
+.ctitle >  h5 
+{
+    color: #0bef56;
+}
+
+.carousel-item > .card .card-body {
+    background: #310558ba !important;
 }
