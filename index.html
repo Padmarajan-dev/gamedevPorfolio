@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
 </head>
@@ -46,12 +48,14 @@
                <h5>Hi I'm <span>Padmarajan</span></h5>
                <h4>Game Developer.</h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-               <button class="btn btn-info">Hire Me</button>
+               <a href="https://drive.google.com/file/d/1rrnmnO2Y0WxLE-x3lTp_oTV5XIfJBEGC/view?usp=sharing"  class="btn btn-info">
+                 Hire Me
+                </a> 
                <div class="social-icons mt-4">
-                  <img class="social-icon" src="./assets/Images/Facebook.png">
-                  <img class="social-icon" src="./assets/Images/Discord.png">
-                  <img class="social-icon" src="./assets/Images/Github.png">
-                  <img class="social-icon" src="./assets/Images/Linkedin.png">
+                  <a href="https://www.facebook.com/profile.php?id=100021045661515"><img class="social-icon" src="./assets/Images/Facebook.png"></a>
+                  <a href="https://discord.gg/5qKTS97C"><img class="social-icon" src="./assets/Images/Discord.png"></a>
+                  <a href="https://github.com/Padmarajan-dev"><img class="social-icon" src="./assets/Images/Github.png"></a>
+                  <a href="https://www.linkedin.com/in/padmarajan-s-8b8211183/"><img class="social-icon" src="./assets/Images/Linkedin.png"></a>
                </div>
            </div>
            <div class="img-content col-lg-6 order-0 order-lg-1">
@@ -75,12 +79,12 @@
             <h5>About me</h5>
             <div class="right-border my-2"></div>
           </div>
-          <div class="about-content col-lg-6 my-auto text-center order-1">
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="about-content col-lg-6 my-auto text-center order-1" data-aos-mirror="true" data-aos="fade-right" data-aos-duration="1000">
+             <p>Seeking an exciting and challenging position
+              as a game programmer in a company where my programming skills and knowledge can be
+              used to the fullest.</p>
           </div>
-          <div class="img-content col-lg-6 order-0 my-auto">
+          <div class="img-content col-lg-6 order-0 my-auto" data-aos-mirror="true" data-aos="fade-down" data-aos-duration="1000">
             <div class="rel-img mb-5">
               <img src="./assets/svgs/about-me.svg" class="ml-lg-5 ml-2">
               <img src="./assets/Images/about-me.png" class="ml-lg-5">
@@ -96,28 +100,28 @@
               <h5>Skills</h5>
               <div class="right-border my-2"></div>
             </div>
-            <div class="img-content col-lg-6 order-0 my-auto">
+            <div class="img-content col-lg-6 order-0 my-auto" data-aos-mirror="true" data-aos="fade-right" data-aos-duration="1000">
               <div class="rel-img my-auto">
                 <img src="./assets/svgs/skills.svg" class="ml-lg-5 ml-2">
                 <img src="./assets/Images/skills.png" class="ml-lg-5">
              </div>
             </div>
              <!--skills showcase-->
-             <div class="col-lg-6 order-1  mt-5">
+             <div class="col-lg-6 order-1  mt-5" data-aos-mirror="true" data-aos="fade-left" data-aos-duration="1000">
                   <div class="d-inline-flex  justify-content-center row skills-btn">
                     <button class="btn btn-info menu-btns p-2 ml-2 col-4  mt-3 active" id="gamedev"><img class="btn-icon" src="./assets/Images/game-controller.png"></button>
                     <button class="btn btn-info menu-btns p-2 ml-2 col-4 ml-lg-3 mr-lg-3 mt-3" id="webdev"><img class="btn-icon" src="./assets/Images/world-wide-web.png"></button>
                     <button class="btn btn-info menu-btns p-2 ml-2 col-4 mt-3" id="wireframe"><img class="btn-icon" src="./assets/Images/wireframe.png"></button>
                   </div>
                   <!--skills-->
-                  <div class="row mt-5 d-inline-flex mr-lg-5 justify-content-between skill-cont" id="gamedev">
+                  <div class="row mt-5 d-inline-flex mr-lg-5 justify-content-around skill-cont" id="gamedev">
                       <div class="circlechart skillprogress col-lg-4 col-4" data-percentage="70" data-url="./assets/Images/Unity@2x.png"></div>
                       <div class="circlechart skillprogress col-lg-4 col-4" data-percentage="20" data-url="./assets/Images/Blender.png"></div>
                       <div class="circlechart skillprogress col-lg-4 col-4" data-percentage="15" data-url="./assets/Images/substance-painter-mac.png"></div>
                       <div class="circlechart skillprogress col-lg-4 col-4" data-percentage="70" data-url="./assets/Images/logo-csharp.png"></div>          
                   </div>
 
-                  <div class="row mt-5  d-none mr-lg-5 justify-content-between skill-cont" id="webdev">
+                  <div class="row mt-5  d-none mr-lg-5 justify-content-around skill-cont" id="webdev">
                       <div class="circlechart skillprogress col-lg-4 col-4" id="angular-icon" data-percentage="80" data-url="./assets/Images/angular-icon-logo.png"></div>
                       <div class="circlechart skillprogress col-lg-4 col-4" data-percentage="60" data-url="./assets/Images/node-js-icon.png"></div>
                       <div class="circlechart skillprogress col-lg-4 col-4" data-percentage="90" data-url="./assets/Images/html.png"></div>
@@ -126,7 +130,7 @@
                   </div>
 
                   <div class="row mt-5  d-none mr-lg-5 justify-content-around skill-cont" id="wireframe">
-                      <div class="circlechart skillprogress col-lg-2 col-4" data-percentage="70" data-url="./assets/Images/adobe_xd.png"></div>     
+                      <div class="circlechart skillprogress col-lg-2 col-4" id="xd-icon" data-percentage="70" data-url="./assets/Images/adobe_xd.png"></div>     
                   </div>
              </div>
          </div>
@@ -139,7 +143,7 @@
               <div class="right-border my-2"></div>
             </div>
 
-            <div class="col-lg-12 order-1 mt-5 d-inline-flex justify-content-center">
+            <div class="col-lg-12 order-1 mt-5 d-inline-flex justify-content-center" data-aos-mirror="true" data-aos="fade-left" data-aos-duration="1000">
               <div class="d-inline-flex justify-content-center row skills-btn">
                 <button id="unity" class="btn btn-info col-3 ml-2 mt-3 portfolio-menu-btns p-2 active"><img class="btn-icon" src="./assets/Images/Unity@2x.png"></button>
                 <button id="blender" class="btn btn-info col-3 ml-2 mt-3 portfolio-menu-btns p-2"><img class="btn-icon" src="./assets/Images/model.png"></button>
@@ -150,11 +154,11 @@
             <!--portfolio works-->
             <div id="unity" class="row portfolio-cont order-2">
                   <div class="row order-2 mt-5 portfolio-cards justify-content-around mx-lg-auto">
-                    <div class="card col-lg-4 col-xl-3 col-11 mt-4">
+                    <div class="card col-lg-4 col-xl-3 col-11 mt-4" data-aos-mirror="true" data-aos="flip-right" data-aos-duration="1000">
                       <img class="card-img-top" src="./assets/Images/portfolio-1.png" alt="Card image cap">
                       <button class="btn btn-primary view-more" ><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                       <button class="btn btn-primary less d-none" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-                      <div class="card-body d-none">
+                      <div class="card-body d-none ">
                         <h5 class="card-title">Turnaround warrior</h5>
                         <p class="card-text">Turnaround warrior is a RPG Game.A story of warrior who recover her soulmate and her gem from boss.battle your way with amazing combat system</p>
                         <div class="card-btns mt-5">
@@ -164,11 +168,11 @@
                       </div>
                     </div>
 
-                      <div class="card col-lg-4 col-xl-3 col-11 mt-4">
+                      <div class="card col-lg-4 col-xl-3 col-11 mt-4" data-aos-mirror="true" data-aos="flip-up" data-aos-duration="1000">
                         <img class="card-img-top" src="./assets/Images/portfolio-2.png" alt="Card image cap">
                         <button class="btn btn-primary view-more"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                         <button class="btn btn-primary less d-none" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-                        <div class="card-body d-none">
+                        <div class="card-body d-none ">
                           <h5 class="card-title">Tom & Jerry Tic-Tac-Toe</h5>
                           <p class="card-text">It's a board Game.you could play Tic-Tac-Toe with iconic cartoon models Tom & Jerry in a isometric-view. </p>
                           <div class="card-btns mt-5">
@@ -186,7 +190,7 @@
                         <img class="card-img-top" src="./assets/Images/blender-portfolio.png" alt="Card image cap">
                         <button class="btn btn-primary view-more" ><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                         <button class="btn btn-primary less d-none" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-                        <div class="card-body d-none">
+                        <div class="card-body d-none  ">
                           <h5 class="card-title">The Explorer</h5>
                           <p class="card-text">It's a female Explorer 3d Model</p>
                           <div class="card-btns mt-5">
@@ -199,7 +203,7 @@
                         <img class="card-img-top" src="./assets/Images/bowlingpin.png" alt="Card image cap">
                         <button class="btn btn-primary view-more"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                         <button class="btn btn-primary less d-none" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-                        <div class="card-body d-none">
+                        <div class="card-body d-none  ">
                           <h5 class="card-title">Bowling Pin</h5>
                           <p class="card-text">Rendered Images of bowling pin 3d model.</p>
                           <div class="card-btns mt-5">
@@ -216,7 +220,7 @@
                         <img class="card-img-top" src="./assets/Images/fooddelivery.png" alt="Card image cap">
                         <button class="btn btn-primary view-more" ><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                         <button class="btn btn-primary less d-none" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-                        <div class="card-body d-none">
+                        <div class="card-body d-none  ">
                           <h5 class="card-title">Get On Doorstep</h5>
                           <p class="card-text">It's a food delivery webapp,we can order food and deliver it on our door on your step through this website</p>
                           <div class="card-btns mt-5">
@@ -230,7 +234,7 @@
                         <img class="card-img-top" src="./assets/Images/port.png" alt="Card image cap">
                         <button class="btn btn-primary view-more"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                         <button class="btn btn-primary less d-none" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-                        <div class="card-body d-none">
+                        <div class="card-body d-none  ">
                           <h5 class="card-title">DevPort</h5>
                           <p class="card-text">It's custom portfolio website,we can build our website with slecting tempplates which are avilbale</p>
                           <div class="card-btns mt-5">
@@ -248,7 +252,7 @@
                       <img class="card-img-top" src="./assets/Images/wirframe-portfolio.png" alt="Card image cap">
                       <button class="btn btn-primary view-more" ><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                       <button class="btn btn-primary less d-none" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-                      <div class="card-body d-none">
+                      <div class="card-body d-none ">
                         <h5 class="card-title">Portfolio Wireframe</h5>
                         <p class="card-text">It's Wireframe which has designed on adobe xd</p>
                         <div class="card-btns mt-5">
@@ -267,7 +271,7 @@
               <h5>Experience</h5>
               <div class="right-border my-2"></div>
             </div>  
-            <div class="col-lg-12 d-flex img-content justify-content-end mt-4 mx-5 order-0">
+            <div class="col-lg-12 d-flex img-content justify-content-end mt-4 mx-5 order-0" data-aos-mirror="true" data-aos="fade-zoom-in" data-aos-duration="1000">
               <div class="rel-img my-auto">
                 <img src="./assets/svgs/experirence.svg" >
                 <img src="./assets/Images/works (1).png" >
@@ -275,7 +279,7 @@
             </div>
             <div class="row order-2 mt-4 experience-cards justify-content-around">
               <div class="row d-lg-flex  d-none justify-content-around">
-                  <div class="card col-lg-5 col-10 mt-2 ml-4 p-4 ">
+                  <div class="card col-lg-5 col-10 mt-2 ml-4 p-4 " data-aos-mirror="true" data-aos="flip-up" data-aos-duration="1000">
                     <img class="card-img-top mx-auto mt-3" src="./assets/Images/prof.png" alt="Card image cap">
                     <div class="card-body p-lg-5">
 
@@ -287,7 +291,7 @@
                       <p class="card-text"><span>Rental-service-App: </span>it's Service based Application.for managing Tenents reports Through this app.here is a download link: <a href="https://bit.ly/3Mgt56C">Rental-app</a></p>
                     </div>
                   </div>
-                  <div class="card col-lg-5  col-10 mt-2 ml-4 p-4 ">
+                  <div class="card col-lg-5  col-10 mt-2 ml-4 p-4 " data-aos-mirror="true" data-aos="flip-up" data-aos-duration="1000">
                     <img class="card-img-top mx-auto mt-3" src="./assets/Images/prof.png" alt="Card image cap">
                     <div class="card-body p-lg-5">
                       <div class="ctitle d-flex justify-content-between">
@@ -343,7 +347,7 @@
             <h5>Contact Me</h5>
             <div class="right-border my-2"></div>
           </div> 
-          <div class="col-lg-6 col-11 col-xl-4 contact-form mt-5 mx-lg-5 mx-xl-5 p-3 p-lg-5 mx-3">
+          <div class="col-lg-6 col-11 col-xl-4 contact-form mt-5 mx-lg-5 mx-xl-5 p-3 p-lg-5 mx-3" data-aos-mirror="true" data-aos="fade-left" data-aos-duration="1000">
               <div class="align-items-center col-lg-12 custom-form-control d-inline-flex  p-2 mt-4">
                 <i class="fa fa-user ml-3" aria-hidden="true"></i>
                 <input type="text" class="form-control" placeholder="Enter Your Name">
@@ -359,7 +363,7 @@
                 <button class="btn btn-info col-9 mx-auto p-2" id="mail-me">Mail me</button>
               </div>
             </div>
-            <div class="col-lg-4 col-xl-5  mt-5  p-5 text-center">
+            <div class="col-lg-4 col-xl-5  mt-5  p-5 text-center" data-aos-mirror="true" data-aos="fade-zoom-in" data-aos-duration="1000">
               <img src="./assets/Images/mail.png" class="mail-img">
               <h5>Mail Me</h5>
               <p>@rajussp31121997@gmail.com</p>
@@ -367,14 +371,15 @@
          </div>
          <!--Footer-->
             <div class="row footer justify-content-center">
-               <i class="fa fa-facebook"></i>
-               <i class="fab fa-discord"></i>
-               <i class="fa fa-github"></i>
+               <a href="https://www.facebook.com/profile.php?id=100021045661515"><i class="fa fa-facebook"></i></a>
+               <a href="https://discord.gg/5qKTS97C""><i class="fab fa-discord"></i></a>
+               <a href="https://github.com/Padmarajan-dev"><i class="fa fa-github"></i></a>
             </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/script.js"></script>
     <script src="https://use.fontawesome.com/7e93115ff8.js"></script> 
     <script src="./assets/plugins/progress-bar/progresscircle.js"></script>

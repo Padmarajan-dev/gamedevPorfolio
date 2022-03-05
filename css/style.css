@@ -171,7 +171,7 @@ nav {
     }
     
     .view-more, .less {
-    left: 38% !important;
+    left: 41% !important;
      }
     .wave > img
     {
@@ -348,6 +348,12 @@ nav {
 /* medium size laptops */
 @media (min-width: 1024px) { 
 
+    #xd-icon > img {
+        left: 1.8rem !important;
+        top: -6.1rem;
+    }
+    
+
   
     .wave > img {
         height: 7rem;
@@ -390,6 +396,12 @@ nav {
         .img-content {
         height: 20rem !important;
     }
+
+    #xd-icon > img {
+        left: 1.8rem !important;
+        top: -6.1rem;
+    }
+    
 }
 
 .img-content 
@@ -397,9 +409,9 @@ nav {
     height: 14rem;
 }
 
-#angular-icon > img 
-{
-    left: 1rem !important;
+#angular-icon > img {
+    left: 1.2rem !important;
+    top: -6rem;
 }
 
 .panel-title > h5 
@@ -461,7 +473,7 @@ nav {
 .experience-cards > div > .card .card-body > p, .carousel-item > .card .card-body > p {
   color: #cbced1;
 }
-.footer > i 
+.footer > a > i 
 {
 color: gold;
 margin-left: 0.4rem;
@@ -472,5 +484,8 @@ font-size: 1.5rem;
 {
     background: #1e0832;
     padding: 1.3rem;
+}
+.contact-form {
+    box-shadow: 6px 1px 6px #cbced1, -6px -6px 6px #ffffff !important;
 }
 
