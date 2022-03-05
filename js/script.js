@@ -48,7 +48,9 @@ $('.portfolio-menu-btns').click(function(){
       }
     });
   }
-  
+  $(function(){
+    AOS.init();
+  });
 
 
 
