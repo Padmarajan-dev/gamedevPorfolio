@@ -1,0 +1,101 @@
+@media only screen and (max-width: 768px) {
+
+    .Intro-panel > .img-content > .rel-img > img:nth-child(2) {
+        position: absolute;
+        top: -1rem !important;
+        left: 13rem !important;
+        height: 15rem !important;
+        z-index: 3;
+    }
+
+    .Intro-panel > .img-content > .rel-img > img:nth-child(1) {
+        position: relative;
+        height: 15rem !important;
+        z-index: -3 !important;
+        left: 11rem;
+        top: -2rem;
+    }
+
+    .Intro-panel > .img-content > .rel-img >
+    {
+        margin-left: 13rem !important;
+        margin-top: -2rem !important;
+    }
+
+    .about-me-panel > .img-content > .rel-img > img:nth-child(2) {
+        position: absolute;
+        top: 1rem;
+        left: 13rem;
+        height: 12rem;
+        z-index: 3;
+    }
+
+    .about-me-panel > .img-content > .rel-img > img:nth-child(1) {
+        height: 15rem;
+        z-index: -3;
+    }
+
+    .about-me-panel > .img-content > .rel-img {
+        margin-left: 13rem !important;
+        margin-top: -1rem !important;
+    }
+
+    .skills-panel > .img-content > .rel-img > img:nth-child(2) {
+        left: 18rem;
+    }
+    
+    .skills-panel > .img-content > .rel-img 
+    {
+        margin-left: 13rem;
+    }
+
+    .svg-img {
+        top: -3.8rem;
+        left: -6.2rem;
+    }
+
+    .view-more,.less 
+    {
+        left: 46%;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(2) {
+        height: 11rem;
+        position: relative;
+        left: 0rem;
+        top: -13rem;
+    }
+
+    .Experience > .img-content > .rel-img > img:nth-child(1) {
+        height: 16rem;
+    }
+    .Experience > .img-content > .rel-img 
+    {
+     margin-left: 11rem !important;
+    }
+
+    .carousel-item > .card > img {
+        height: 4.2rem;
+        width: 4.2em;
+        position: relative;
+        border-bottom: 3.4px solid white;
+        top: -2rem;
+        left: 1rem;
+        z-index: 10;
+        border-radius: 2rem;
+    }
+   .carousel-item > .card 
+    {
+        border: none;
+    }
+   .carousel-item > .card .card-body
+    {
+        background: #a0cee5ba;
+        position: relative;
+        z-index: 2;
+        top: -3.2rem;
+        left: 1rem;
+        border-radius: 1rem;
+        box-shadow: -3px -4px 15px rgb(254 230 230 / 50%), 3px 2px 6px rgb(154 131 131);
+    }
+}
